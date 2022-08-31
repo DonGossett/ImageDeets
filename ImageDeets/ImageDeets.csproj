@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ImageDeets.Core\ImageDeets.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="sample-images\image001.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
